@@ -2,54 +2,98 @@
 <! DOCTYPE html PUBLIC " -// W3C // DTD XHTML 1.0 Strict // EN "
 " http :// www . w3c . org / TR / xhtml1 / DTD / xhtml1 - strict . dtd " >
 <html xmlns =" http :// www . w3 . org /1999/ xhtml " xml : lang = " es " lang =" es " >
-<head>
-<h1>Ayuntamiento de Mollet del Vallés</h1>
-<img src= "https://tramits.molletvalles.cat/Ciutadania/Recursos/Imatges/logo-ajuntament.png" width ="10%"
-height ="auto" alt = "logo ayto" / >
+<head> 
+  <h1>Ayuntamiento de Mollet del Vallés</h1>
+  
+  <style>
+  h1 {
+            font-family: calibri;
+            font-size: 250%;
+            background-color: #cf3f41;
+            padding: 2%;
+            text-align: center;
+            margin: -8;
+  }
+
+  h2{
+            font-family: calibri;
+  }
+  img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+  }
+  body{
+            background-color: #FFFAF0;
+  }
+  table{
+            font-family: calibri;
+            margin-left: auto;
+            margin-right: auto;
+  }
+  </style>
+  <br>
+  <img src= "https://tramits.molletvalles.cat/Ciutadania/Recursos/Imatges/logo-ajuntament.png" width ="10%"
+  height ="auto" alt = "logo ayuntamiento" / >
 
 </head>
 
 <title> Página de contacto</title>
 
 <body>
-<br></br>
-<!--Datos de contacto-->
-<table border ="1" cellpadding = " 20 "
-cellspacing =" 3 " >
+  <br>
+  <!--tabla de datos de contacto-->
+  <table border ="1" cellpadding = "20"
+  cellspacing ="3">
+  <tr >
+      <th rowspan="5" >DATOS <br> DE <br>CONTACTO </th >
+        <td > Correo electrónico: <a href = "mailto:ajuntament@molletvalles.cat" title = "email del ayuntamiento" > ajuntament@molletvalles.cat</a> </td >
+  </tr>
+  <tr>
+      <td > Teléfono: 93 571 95 00 </td >
+  </tr>
+  <tr>
+      <td > Código postal: 08100 </td >
+  </tr>
+  <tr>
+      <td > Población: <a href = "https://ca.wikipedia.org/wiki/Mollet_del_Vall%C3%A8s" target="_blank" title = "wikipedia de Mollet" >Mollet del Vallés</a > </td >
+  </tr>
+  <tr>
+      <td >Dirección: <a href = "https://maps.app.goo.gl/WM2zKTWY4JXD1BkLA" target="_blank" title = "dirección en google maps" >Plaça Major 1 (Casa de la Vila)</a > </td >
+  </tr>
+  </table>
+  <br>
+  <hr>
+<!--Ayuntamiento en google maps-->
+<h2>Localización</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2986.565564059224!2d2.2078912745868746!3d41.53535018680654!2m3!1f0!2f0!3f0!3m2!1i1
+024!2i768!4f13.1!3m3!1m2!1s0x12a4bed817cd7e95%3A0xad5c6d41fa4a704a!2sAjuntament%20de%20Mollet%20del%20Vall%C3%A8s!5e0!3m2!1sca!2ses!4v173585
+3769357!5m2!1sca!2ses" width="auto" height="50%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<hr>
+ <!-- Formulario -->
+ <h2>Formulario de Denuncias</h2>
+<form action="/submit" method="post" enctype="multipart/form-data">
+<label for="name">Nombre:</label>
+<input type="text" id="name" name="name" placeholder="Tu nombre" required />
 
-<tr >
-<th rowspan="5" >DATOS DE CONTACTO </th >
-<td > Correo electrónico: ajuntament@molletvalles.cat </td >
+<label for="email">Correo Electrónico:</label>
+<input type="email" id="email" name="email" placeholder="Tu correo electrónico" required />
 
-</tr>
-<tr>
-<td > Teléfono: 93 571 95 00 </td >
-</tr>
+<label for="description">Descripción de la denuncia:</label>
+<textarea id="description" name="description" rows="4" placeholder="Describe el problema" required></textarea>
 
-<tr>
-<td > Código postal: 08100 </td >
-</tr>
+<label for="file">Subir archivo o imagen:</label>
+<input type="file" id="file" name="file" accept="image/*, .pdf" />
 
-<tr>
-<td > Población: Mollet del Vallès (Barcelona) </td >
-</tr>
-
-<tr>
-<td > Dirección: Plaça Major 1 (Casa de la Vila) </td >
-</tr>
-
-</table>
+<button type="submit">Enviar Denuncia</button>
+</form>
 
 <form action = " ajuntament@molletvalles.cat "
 method =" post " enctype = " text / plain " >
 <a>Nombre</a>
 <input type = " text " id = " nombre " name = " nombre "
 size = " 20 " / >
-<br></br>
-<a>Contraseña</a>
-<input type = "password" name = " pass " id = " pass " / >
-</form>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2986.565564059224!2d2.2078912745868746!3d41.53535018680654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4bed817cd7e95%3A0xad5c6d41fa4a704a!2sAjuntament%20de%20Mollet%20del%20Vall%C3%A8s!5e0!3m2!1sca!2ses!4v1735853769357!5m2!1sca!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 </body>
 
 </html>
