@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<! DOCTYPE html PUBLIC " -// W3C // DTD XHTML 1.0 Strict // EN "
-" http :// www . w3c . org / TR / xhtml1 / DTD / xhtml1 - strict . dtd " >
-<html xmlns =" http :// www . w3 . org /1999/ xhtml " xml : lang = " es " lang =" es " >
+<! DOCTYPE html PUBLIC " -// W3C // DTD XHTML 1.0 Strict // EN " " http :// www . w3c . org / TR / xhtml1 / DTD / xhtml1 - strict . dtd " >
+<html xmlns =" http :// www . w3 . org /1999/ xhtml "xml:lang = "es" lang ="es" >
 <head>
-  <h1>Ayuntamiento de Mollet del Vallés</h1>
-
-  
+  <title> Página de contacto</title>
   <!-- Enlace con la hoja de estilos-->
 <link rel="stylesheet" type="text/css" href="hoja_estilos.css">
 </head>
 
-<title> Página de contacto</title>
-
 <body>
-<nav>
-  <ul>
+<div class="header">
+ <h1>Sostenibilidad Ayuntamiento de Mollet del Vallés</h1>
+  <img src= "https://play-lh.googleusercontent.com/kVMJiFbihTAxhLP832_qd2xnPYNb2bW-XqJOOxUfVKdlnK9ULdez_mbiy-BHbGoya7M"
+  width ="10%" height ="auto" alt = "logo ayuntamiento" / >
+</div>
+<br>
+<div class="menu">
     <li><a href="index.html">Página de contacto</a></li>
     <li><a href="medidas_ambientales.html">Medidas Medioambientales</a></li>
-  </ul>
-</nav>
-
-  <br>
-  <img src= "https://tramits.molletvalles.cat/Ciutadania/Recursos/Imatges/logo-ajuntament.png" width ="10%"
-  height ="auto" alt = "logo ayuntamiento" / >
+    <li><a href="agenda2030.html">¿Qué es la agenda 2030?</a></li>
+</div>
   <br>
   
   <!--tabla de datos de contacto-->
@@ -51,11 +47,11 @@
   <h2>Localización</h2>
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2986.565564059224!2d2.2078912745868746!3d41.53535018680654!2m3!1f0!2f0!3f0!3m2!1i1
   024!2i768!4f13.1!3m3!1m2!1s0x12a4bed817cd7e95%3A0xad5c6d41fa4a704a!2sAjuntament%20de%20Mollet%20del%20Vall%C3%A8s!5e0!3m2!1sca!2ses!4v173585
-  3769357!5m2!1sca!2ses" width="55%" height="65%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  3769357!5m2!1sca!2ses" width="55%" height="65%" style="border:0"></iframe>
   <hr>
   <!-- Formulario de denuncias -->
   <h2>Denuncias</h2>
-  <form action="/submit" method="post" enctype="multipart/form-data">
+  <form action="mailto:lajuntament@molletvalles.cat" method="post" enctype="multipart/form-data">
   
     <label for="nombre">Nombre:</label>
     <input type="text" id="nombre" name="nombre"/>
@@ -76,7 +72,11 @@
     <button type="submit">Enviar Denuncia</button>
 
   </form>
-
+  <br>
+  
+  <div class = "footer" >
+  <p>© 2025 Ajuntament de Mollet del Vallès</p>
+  </div>
 </body>
 
 </html>
