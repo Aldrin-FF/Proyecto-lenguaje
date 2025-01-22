@@ -5,7 +5,7 @@
 .header h1{
   margin-left: auto;
   text-align:center;
-  color:white;
+  color:#F5F5F5;
 }
 .header img{
   margin-right: auto;
@@ -14,11 +14,11 @@
   font-family: verdana;
   display:flex;
   gap:10%;
-  background-color: #F5F5F5;
-  padding-left:10%;
+  background-color: #d2291c;
+  padding:1%;
   }
 .menu :hover{
-  color: #0056b3;
+  color: #F5F5F5;
 }
 
 h1,h2,h3,p,ul,ol,form,iframe{
