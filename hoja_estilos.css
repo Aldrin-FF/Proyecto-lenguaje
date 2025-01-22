@@ -1,61 +1,48 @@
-  body{
-            background-color: #FFFAF0;
+.header {
+  background-color: #da291c;
+  display : flex ;
+  margin:-8px;
   }
-  h1 {
-            font-family: verdana;
-            font-size: 250%;
-            background-color: #cf3f41;
-            padding: 2%;
-            text-align: center;
-            margin: -8;
-  }
-  h2{
-            font-family: verdana;
-  }
-  h3{
-            font-family: verdana;
-  }
-  h4{
-            font-family: verdana;
-  }
-  p{
-            font-family: verdana;
-  }
- ul{
-            font-family: verdana;
-  }
-  ol{
-            font-family: verdana;
-  }
-  img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-  }
-  table{
-            font-family: verdana;
-            background-color: #FFFFFF;
-            margin-left: auto;
-            margin-right: auto;
-  }
-  form{
-            font-family: verdana;
-  }
-nav ul {
-              list-style-type: none;
-              display: flex;
-              gap: 20px;
-              padding: 5px;
-              background-color: #cf3f41;
-              margin: -8;
-              justify-content: center;
+.header h1{
+  font-family: verdana;
+  margin-left: auto;
+  margin-right: auto;
+  color:white;
 }
-nav ul li a {
-              text-decoration: none;
-              font-weight: bold;
-              font-family: verdana;
+.header img{  
+  margin-right: auto;
 }
-nav ul li a:hover {
-              color: #0056b3;
-              text-decoration: underline;
+.menu{
+  font-family: verdana;
+  display:flex;
+  gap:10%;
+  background-color: #F5F5F5;
+  padding-left:10%;
+  }
+.menu :hover{
+  color: #0056b3;
+}
+body{
+  font-family: verdana;
+  background-color: #F5F5F5;
+  }
+
+table{
+  font-family: verdana;
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  }
+form{
+  font-family: verdana;
+  }
+ .footer {
+  clear: both; /* Asegura que el pie de página no se superponga con otros elementos flotantes */
+  background-color: #da291c;
+  margin: -8px;
+  padding: 1px;
+  color: white;
+}
+.tabla-ods{
+  text-align:center;
 }
