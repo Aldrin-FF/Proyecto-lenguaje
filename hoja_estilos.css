@@ -1,7 +1,7 @@
 .header {
   background-color: #da291c;
   display : flex ;
-  margin:-8px;
+width:100%;
   }
 .header h1{
   margin-left: auto;
@@ -38,7 +38,7 @@ table{
   display: flex;}
  .footer {
   background-color: #da291c;
-  margin: -8px;
+width:100%;
   padding: 1px;
   color: white;
 } 
