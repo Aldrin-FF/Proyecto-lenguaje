@@ -20,6 +20,10 @@
 .menu :hover{
   color: #0056b3;
 }
+
+h1,h2,h3,p,ul,ol,form,iframe{
+  margin-left:10px;
+}
 body{
   margin:0;
   font-family: verdana;
