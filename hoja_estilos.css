@@ -11,7 +11,7 @@
   margin-right: auto;
 }
 .menu{
-  font-family: verdana;
+  font-family: verdana, sans-serif;
   display:flex;
   gap:10%;
   background-color: #d2291c;
@@ -26,7 +26,7 @@ h1,h2,h3,h4,h5,h6,p,ul,ol,form,iframe{
 }
 body{
   margin:0;
-  font-family: verdana;
+  font-family: verdana, sans-serif;
   background-color: #F5F5F5;
   }
 table{
